@@ -160,8 +160,8 @@ p {
 @media (max-width: 768px) {
 		.thumb {
 	  text-align: center;
-	  width: 120px;
-	  height: 100px;
+	  width: 600px;
+	  height: 520px;
 	  margin: 5px;
 	  padding: 2px;
 	  box-shadow:  3px 6px 6px #878391;
