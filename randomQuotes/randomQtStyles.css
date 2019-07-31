@@ -1,0 +1,91 @@
+body
+{
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1493632230625-5260c73a3121?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&s=4096327ccd6010c04d7c7617df3b7ecd);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+  background-position: relative;
+ }
+.col-xs-3
+{
+  position: relative;
+}
+
+
+.flex-container
+{
+  display: flex;
+  flex-direction: column;
+}
+
+h1
+{
+  position: relative;
+  font-family: Raleway;
+  margin-top:40px;
+  margin-bottom: 50px;
+  
+  color: #BBDEFB;
+}
+
+#quoteArea
+{
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: Lora;
+  color: #F1F8E9;
+}
+#row
+{
+  display: inline;
+  position: relative;
+  margin-left: 80px;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+.btns
+{
+  position: relative;
+  margin-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: inline;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  opacity: 0.7;
+  border-style: solid;
+  border-color: #F1F8E9;
+  border-width: 3px;
+}
+
+#quoteBtn
+{
+  
+}
+
+reloadBtn
+{
+  
+}
+
+#refreshTxt
+{
+  color: black;
+}
+
+#tweetBtn
+{
+  
+}
+
+#bottom h5
+{
+  color: #F1F8E9;
+  margin-top: 300px;
+  margin-left: 100px;
+  margin-right: 80px;
+  position: relative;
+}

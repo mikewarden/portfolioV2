@@ -1,0 +1,155 @@
+body {
+	/*background: url('bground9.jpeg');*/
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Hind Madurai', sans-serif;
+	padding: 7px;
+	color: #fff;
+}
+
+.navbar {
+	opacity: 0.7;
+	background-color: #B7B2C4;
+	margin-bottom: 30px;
+}
+
+.jumbotron {
+	margin: 70px 10px 10px 10px;
+	text-align: center;
+	opacity: 0.93;
+	color: #000;
+	background-color: #878391;
+	padding: 15px 4px 10px 4px;
+	border-radius: 30px;
+}
+
+.container {
+	justify-content: center;
+
+}
+
+.display-4 {
+	color: #000;
+}
+
+.thumb {
+  text-align: center;
+  width: 220px;
+  height: 200px;
+  margin: 10px;
+  padding: 2px;
+  box-shadow:  3px 6px 6px #878391;
+  border-radius: 12px;
+}
+
+.stuff-box {
+	color: #ffe;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-header {
+	text-align: center;
+	color: #D6D0E5;
+	margin: 15px 0px 20px 0px;
+}
+
+
+
+
+h6 {
+  margin-top: 10px;
+}
+
+input {
+  box-shadow:  1px 3px 5px #0F0224;
+}
+
+textarea {
+  box-shadow:  1px 3px 5px #0F0224;
+}
+
+#submitBtn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#project-section {
+	justify-content: center;
+	opacity: 0.9;
+    margin: 20px 30px 10px 30px;
+    padding: 10px 0px 10px 0px;
+}
+
+/*#thumb-ten {
+	margin-left: 16px;
+}*/
+
+.contact-info {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	color: #fff;
+}
+
+.row {
+	justify-content: center;
+}
+
+#profile-pic {
+	height: 157px;
+	width: 157px;
+	border-radius: 50%;
+	border: 3px solid #4C4A52;
+	margin-bottom: 8px;
+}
+
+h4 {
+	color: #fff;
+}
+
+hr {
+	color: #fff;
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#jumbo-header {
+	font-size: 1.7em;
+}
+
+.icons {
+	width: 50px;
+	height: 50px;
+	background-color: gray;
+    border-radius: 9px;
+
+}
+
+.stuff {
+	text-decoration: none;
+	color: #fff;
+}
+img {
+ height: 200px;
+ width: 200px;
+ margin-bottom: 5px;
+ }
+article {
+	border: solid #fff;
+	border-width: 0px 0px 2px 2px;
+	border-radius: 11px;
+	margin-top: 8px;
+	margin-bottom: 7px;
+	padding-top: 8px;
+	padding-left: 16px;
+}

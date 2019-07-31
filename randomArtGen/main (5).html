@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Random Art Generator</title>
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+	<style type="text/css">
+	
+	    body 
+	    {
+	        background: url("background4.jpg");
+	        background-size: 100%;
+	        text-align: center;
+	    }
+	    #myCanvas
+	    {
+	    	margin-top: 20px;
+	    	margin-bottom: 10px;
+	    	border: 5px solid black;
+	    	border-radius: 12px;
+	    	background-color: white;
+	    }
+
+	    .flex-container
+	    {
+	    	margin-right: 8px;
+	    	margin-left: 17px;
+	    }
+
+	    #refreshArt
+	    {
+	    	text-decoration: none;
+	    	border-radius: 3px;
+	    	font-size: 20px;
+	    	margin-bottom: 20px;
+	    	
+	    }
+	    
+	    h6
+	    {
+	        margin-top: 20px;
+	        color: #000;
+	        background: #fff;
+	        
+	    }
+	    
+	    
+
+		
+	</style>
+	<script>
+	        var canvas;
+	    	var context;
+	    	var randomOne;
+	    	var randomTwo;
+	    	var randomThree;
+	    	var randomFour;
+	    	var randomFive;
+	    	var randomSix;
+	    	var randomSeven;
+	    	var randomEight;
+	    	var randomNine;
+	    	var randomTen;
+	    	var randomEleven;
+	    	var randomTwelve;
+	    	var randomThirteen;
+	    	var randomFourteen;
+	    	var randomFifteen;
+	    	var randomSixteen;
+	    	var randomSeventeen;
+	    	var randomEighteen;
+	    	var randomNineteen;
+	    	var randomTwenty;
+	    	var randomColor;
+	    	var randomColorTwo;
+	    	var randomColorThree;
+	    	var randomColorFour;
+	    	var randomColorFive;
+	    	var randomColorSix;
+	    	var randomColorSeven;
+	    	var randomColorEight;
+	    	var randomColorNine;
+	    	var randomColorTen;
+		var randomColorEleven;
+		var randomColorTwelve;
+
+
+
+
+
+
+	    window.onload = function()
+	    {
+	    	 canvas = document.getElementById('myCanvas');
+	    	context = canvas.getContext("2d");
+	    	randomOne = Math.floor(Math.random() * 566);
+	    	randomTwo = Math.floor(Math.random() * 370);
+	    	randomThree = Math.floor(Math.random() * 333);
+	    	randomFour = Math.floor(Math.random() * 110);
+	    	randomFive = Math.floor(Math.random() * 433);
+	    	randomSix = Math.floor(Math.random() * 240);
+	    	randomSeven = Math.floor(Math.random() * 237);
+	    	randomEight = Math.floor(Math.random() * 314);
+	    	randomNine = Math.floor(Math.random() * 490);
+	    	randomTen = Math.floor(Math.random() * 510);
+	    	randomEleven = Math.floor(Math.random() * 60);
+	    	randomTwelve = Math.floor(Math.random() * 160);
+	    	randomFourteen = Math.floor(Math.random() * 410);
+	    	randomThirteen = Math.floor(Math.random() * 320);
+	    	randomFourteen = Math.floor(Math.random() * 200);
+	    	randomFifteen = Math.floor(Math.random() * 500);
+	    	randomSixteen = Math.floor(Math.random() * 700);
+	    	randomSeventeen = Math.floor(Math.random() * 220);
+	    	randomEighteen = Math.floor(Math.random() * 800);
+	    	randomNineteen = Math.floor(Math.random() * 871);
+	    	randomTwenty = Math.floor(Math.random() * 900);
+	    	
+	    	
+	    	randomColor = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+	    	randomColorTwo = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+	    	randomColorThree = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+	    	randomColorFour = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+	    	randomColorFive = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+	    	randomColorSix = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+	    	randomColorSeven = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+	    	randomColorEight = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+	    	randomColorNine = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+	    	randomColorTen = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+		randomColorEleven = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+		randomColorTwelve = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+
+
+	    	//canvas.addEventListener(drawBtn, renderDrawing);
+
+	    	
+
+	    
+
+	    
+	    	
+	    	context.fillStyle = randomColor;
+	    	context.fillRect(randomFour,randomThree,randomTwo,randomOne);
+	    	
+
+	    	context.fillStyle = randomColorTwo;
+	    	context.fillRect(randomFive,randomSix,randomSeven,randomEight);
+
+	    	context.fillStyle = randomColorThree;
+	    	context.fillRect(randomNine,randomTen,randomEleven,randomOne);
+
+	    	context.fillStyle = randomColorFour;
+	    	context.fillRect(randomThirteen,randomFourteen,randomFifteen,randomSixteen);
+
+	    	context.fillStyle = randomColorFive;
+	    	context.fillRect(randomSeventeen,randomEighteen,randomNineteen,randomOne);
+
+	    	context.fillStyle = randomColorSix;
+	    	context.fillRect(randomTwenty,randomNineteen,randomEighteen,randomSeventeen);
+
+	    	context.fillStyle = randomColorSeven;
+	    	context.fillRect(randomSixteen,randomFifteen,randomFourteen,randomOne);
+
+	    	context.fillStyle = randomColorSeven;
+	    	context.fillRect(randomTwelve,randomEleven,randomTen,randomOne);
+
+	    	context.fillStyle = randomColorEight;
+	    	context.fillRect(randomEight,randomSeven,randomSix,randomOne);
+
+	    	context.fillStyle = randomColorNine;
+	    	context.fillRect(randomFour,randomThree,randomOne,randomThree);
+
+	    	context.fillStyle = randomColorTen;
+	    	context.fillRect(randomSixteen,randomTwo,randomTwelve,randomOne);
+
+
+
+	    	
+	    	context.beginPath;
+	    	context.arc(randomOne,randomTwo, randomThree,randomFour, randomFive * Math.PI);
+	    	context.stroke();
+
+	    	context.beginPath;
+	    	context.arc(randomSix, randomSeven, randomEight,randomNine, randomTen * Math.PI);
+	    	context.stroke();
+
+	    	context.beginPath;
+	    	context.arc(randomEleven, randomTwelve, randomThirteen,randomFourteen, randomFifteen * Math.PI);
+	    	context.stroke();
+
+	    	context.beginPath;
+	    	context.arc(randomSixteen, randomSeventeen, randomEighteen,randomNineteen, randomTwenty * Math.PI);
+	    	context.stroke();
+
+	    	context.beginPath;
+	    	context.arc(randomNineteen, randomEighteen, randomSeventeen,randomSixteen, randomFifteen * Math.PI);
+	    	context.stroke();
+
+
+	    	context.beginPath;
+	    	context.arc(randomFourteen, randomThirteen, randomTwelve, randomEleven, randomTen * Math.PI);
+	    	context.stroke();
+
+	    	context.beginPath;
+	    	context.arc(randomNine, randomEight, randomSeven, randomSix, randomFive * Math.PI * Math.random() * 4);
+	    	context.stroke();
+
+
+
+	    	context.moveTo(randomOne, randomTwo);
+	    	context.lineTo(randomThree, randomFour);
+	    	context.moveTo(randomFive, randomSix);
+	    	context.lineTo(randomSeven,randomEight);
+	    	context.moveTo(randomNine, randomTen);
+	    	context.lineTo(randomEleven,randomTwelve);
+	    	context.moveTo(randomThirteen, randomFourteen);
+	    	context.lineTo(randomFifteen,randomSixteen);
+	    	context.moveTo(randomSeventeen, randomEighteen);
+	    	context.lineTo(randomNineteen,randomTwenty);
+	    	context.lineWidth=Math.floor(Math.random() * 9);
+	    	context.stroke();
+
+
+	    	context.moveTo(randomTwenty, randomNineteen);
+	    	context.lineTo(randomEighteen, randomSeventeen);
+	    	context.moveTo(randomSixteen, randomFifteen);
+	    	context.lineTo(randomFour,randomThirteen);
+	    	context.moveTo(randomTwelve, randomEleven);
+	    	context.lineTo(randomTen,randomNine);
+	    	context.moveTo(randomEight, randomSeven);
+	    	context.lineTo(randomSixTeen,randomFive);
+	    	context.moveTo(randomFourteen, randomThree);
+	    	context.lineTo(randomTwo,randomOne);
+	    	context.stroke();
+
+	    	
+	    	context.moveTo(randomSix, randomFourteen);
+	    	context.lineTo(randomTwelve, randomNineteen);
+	    	context.moveTo(randomTen, randomSix);
+	    	context.lineTo(randomSix,randomFour);
+	    	context.moveTo(randomTwenty, randomSeventeen);
+	    	context.lineTo(randomOne,randomTwenty);
+	    	context.moveTo(randomNine, randomThirteen);
+	    	context.lineTo(randomOne,randomTwo);
+	    	context.moveTo(randomTwelve, randomEight);
+	    	context.lineTo(randomSeven,randomFive);
+	    	context.stroke();
+
+	    	context.moveTo(randomTwo, randomThirteen);
+	    	context.lineTo(randomOne,randomFourteen);
+	    	context.moveTo(randomTen, randomSixteen);
+	    	context.lineTo(randomOne,randomFifteen);
+	    	context.moveTo(randomTwo, randomThree);
+	    	context.lineTo(randomSixteen,randomTwenty);
+	    	context.stroke();
+
+	    	context.moveTo(randomTwo, randomSeventeen);
+	    	context.lineTo(randomTwelve, randomFour);
+	    	context.moveTo(randomTwenty, randomSix);
+	    	context.lineTo(randomSix,randomFour);
+	    	context.moveTo(randomTwo, randomSeventeen);
+	    	context.lineTo(randomOne,randomNine);
+	    	context.moveTo(randomNine, randomThirteen);
+	    	context.lineTo(randomSix,randomFour);
+	    	context.stroke();
+
+	    	context.moveTo(randomTwelve, randomThree);
+	    	context.lineTo(randomOne,randomSixteen);
+	    	context.moveTo(randomTwelve, randomThree);
+	    	context.lineTo(randomSix,randomFourteen);
+	    	context.stroke();
+
+	    	context.moveTo(randomTwo, randomSeventeen);
+	    	context.lineTo(randomSix,randomFour);
+	    	context.moveTo(randomTwo, randomSeven);
+	    	context.lineTo(randomOne,randomFive);
+	    	context.moveTo(randomTwo, randomThree);
+	    	context.lineTo(randomOne,randomNineteen);
+	    	context.moveTo(randomTwo, randomThree);
+	    	context.lineTo(randomSix,randomTwo);
+	    	context.stroke();
+
+	    	context.moveTo(randomTwo, randomSeven);
+	    	context.lineTo(randomTwelve, randomFour);
+	    	context.moveTo(randomTen, randomSixteeen);
+	    	context.lineTo(randomSix,randomTwenty);
+	    	context.moveTo(randomTwo, randomSeventeen);
+	    	context.lineTo(randomOne,randomSix);
+	    	context.moveTo(randomNine, randomThirteen);
+	    	context.lineTo(randomSix,randomFourteen);
+	    	context.lineTo(randomOne,randomFive);
+	    	context.moveTo(randomTwo, randomThree);
+		context.stroke();
+	   
+}
+	    
+		
+	</script>
+</head>
+<body>
+	<div class="flex-container">
+	<row>
+	<div class="col-xs-1">
+
+	<h1>Random Art Generator</h1>
+    <canvas id="myCanvas" width="450px" height="450px"></canvas>
+    <br>
+    <button id="reloadBtn" class="btns">
+    <a href="javascript:location.reload(true)" id="refreshArt">Create!</a></button>
+    <br>
+    <footer><h6>Designed by Mike Warden 2018.</h6></footer>
+    </div>
+  </row>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+body
+{
+	background: url('https://i.imgur.com/dF6dDcC.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#container
+{
+	margin-left: 16%;
+}
+
+#title
+{
+	font-family: Arial;
+	font-size: 50px;
+	color: #737FFF;
+    font-stretch: : 40px;
+}
+
+h3
+{
+	font-family: Arial;
+	font-size: 30px;
+	color: #BE7FFF;
+
+}
+#disclaimer
+{
+	font-family: Arial;
+	font-size: 16px;
+	color: #BE7FFF;
+
+}
+
+
+
+#formArea
+{
+	
+}
+
+
+#submitForm 
+{
+
+}
+
+.boxLabels
+{
+	font-family: Arial;
+	font-size: 17px;
+	color: #7EE8F0;
+
+}
+
+.checkBoxes
+{
+	background-color: #98CBE9;
+	color: #98CBE9;
+	size: 22px;
+	border-radius: 4px;
+	margin-top: 2px;
+
+}
+
+input 
+{
+	color: #7EE897;
+	background-color: #2895DE;
+	border-radius: 7px;
+}
+
+.fieldLabels
+{
+	font-family: Arial;
+	font-size: 17px;
+	color: #9EFF45;
+
+}
+
+.textFields
+{
+	font-family: Arial;
+	font-size: 17px;
+	color: #7EE897;
+	background-color: #2895DE;
+	border-radius: 7px;
+	
+
+}
+
+#fullDesc
+{
+        height: 90px;
+}
+
+#submitBtn
+{
+	background-color: #98CBE9;
+	font-size: 14px;
+	color: #3B2AF2;
+	size: 22px;
+	border-radius: 4px;
+	margin-top: 5px;
+
+
+}
+
+#tableZone
+{
+-webkit-border-radius: 5px;
+  -moz-webkit-border-radius: 5px;
+  border-radius: 5px;
+  
+}
+#mainTable
+{
+-webkit-border-radius: 5px;
+  -moz-webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 4px;
+
+}
+
+table {
+color: #190000;
+-webkit-border-radius: 5px;
+  -moz-webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 12px;
+}
+tbody {
+background-color: violet;
+-webkit-border-radius: 5px;
+  -moz-webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 3px;
+}
+.tableData {
+  color: #190000;
+  -webkit-border-radius: 5px;
+  -moz-webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 13px;
+  margin: 8px;
+}
+th
+{
+  color: #00FFF1;
+
+}
+
+td
+{
+  color: #00FFF1;
+
+}
+

@@ -1,0 +1,620 @@
+body
+{
+    	
+    background: url('tabortext.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+}
+
+#titleText
+{
+	color: #FF02F0;
+	font-size: 36px;
+	font-family: Arial;
+	border-radius: 4px;
+	border-style: solid;
+	border-width: 2px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#cautionText
+{
+	font-size: 10px;
+	margin-bottom: 0px;
+	
+}
+
+
+#mainBox
+{
+	background: url('IMG_20121215_135237.jpg');
+	background-color: #820BFF;
+	height: 590px;
+	width: 510px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	opacity: .82;
+
+
+}
+
+
+.divRow1
+{
+	
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	opacity: .82;
+
+	
+
+
+}
+
+.divRow2
+{
+	
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	opacity: .82;
+
+
+}
+
+.divRow3
+{
+	
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	opacity: .82;
+
+
+}
+
+
+.divRow4
+{
+	
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	opacity: .82;
+
+
+}
+
+
+.divRow5
+{
+	
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	opacity: .82;
+
+
+}
+
+
+.stopDivRow
+{
+	
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	opacity: .89;
+
+
+}
+
+
+#pad1Div
+{
+	margin: 25px 20px 20px 20px;
+	background-color: #29FF7C;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+	
+
+}
+
+#pad2Div
+{
+	margin: 25px 20px 20px 100px;
+	background-color: #29FF7C;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#pad3Div
+{
+	margin: 25px 20px 20px 180px;
+	background-color: #29FF7C;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drone1Div
+{
+	margin: 25px 20px 20px 260px;
+	background-color: #29FF7C;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drone2Div
+{
+	margin: 25px 20px 20px 340px;
+	background-color: #29FF7C;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drone3Div
+{
+	margin: 25px 20px 20px 420px;
+	background-color: #29FF7C;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#bass1Div
+{
+	margin: 110px 20px 20px 20px;
+	background-color: #00E810;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#bass2Div
+{
+	margin: 110px 20px 20px 100px;
+	background-color: #00E810;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#bass3Div
+{
+	margin: 110px 20px 20px 180px;
+	background-color: #00E810;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#bass4Div
+{
+	margin: 110px 20px 20px 260px;
+	background-color: #00E810;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#bass5Div
+{
+	margin: 110px 20px 20px 340px;
+	background-color: #00E810;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#bass6Div
+{
+	margin: 110px 20px 20px 420px;
+	background-color: #00E810;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#arp1Div
+{
+	margin: 195px 20px 20px 20px;
+	background-color: #56FF0C;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#arp2Div
+{
+	margin: 195px 20px 20px 100px;
+	background-color: #56FF0C;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+
+}
+
+#arp3Div
+{
+	margin: 195px 20px 20px 180px;
+	background-color: #56FF0C;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+
+}
+
+#arp4Div
+{
+	margin: 195px 20px 20px 260px;
+	background-color: #56FF0C;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+
+}
+
+#arp5Div
+{
+	margin: 195px 20px 20px 340px;
+	background-color: #56FF0C;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+
+}
+
+#arp6Div
+{
+	margin: 195px 20px 20px 420px;
+	background-color: #56FF0C;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+
+}
+
+#drum1Div
+{
+	margin: 280px 20px 20px 20px;
+	background-color: #A1E800;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+
+}
+
+#drum2Div
+{
+	margin: 280px 20px 20px 100px;
+	background-color: #A1E800;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drum3Div
+{
+	margin: 280px 20px 20px 180px;
+	background-color: #A1E800;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drum4Div
+{
+	margin: 280px 20px 20px 260px;
+	background-color: #A1E800;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drum5Div
+{
+	margin: 280px 20px 20px 340px;
+	background-color: #A1E800;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drum6Div
+{
+	margin: 280px 20px 20px 420px;
+	background-color: #A1E800;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drum7Div
+{
+	margin: 365px 20px 20px 20px;
+	background-color: #FFF900;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drum8Div
+{
+	margin: 365px 20px 20px 100px;
+	background-color: #FFF900;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drum9Div
+{
+	margin: 365px 20px 20px 180px;
+	background-color: #FFF900;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drum10Div
+{
+	margin: 365px 20px 20px 260px;
+	background-color: #FFF900;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drum11Div
+{
+	margin: 365px 20px 20px 340px;
+	background-color: #FFF900;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#drum12Div
+{
+	margin: 365px 20px 20px 420px;
+	background-color: #FFF900;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#stopColumn1Div
+{
+	margin: 465px 20px 20px 20px;
+	background-color: gray;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+
+	position: absolute;
+
+}
+
+#stopColumn2Div
+{
+	margin: 465px 20px 20px 100px;
+	background-color: gray;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#stopColumn3Div
+{
+	margin: 465px 20px 20px 180px;
+	background-color: gray;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#stopColumn4Div
+{
+	margin: 465px 20px 20px 260px;
+	background-color: gray;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#stopColumn5Div
+{
+	margin: 465px 20px 20px 340px;
+	background-color: gray;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+#stopColumn6Div
+{
+	margin: 465px 20px 20px 420px;
+	background-color: gray;
+	height: 70px;
+	width: 70px;
+	border-radius: 7px;
+	position: absolute;
+
+}
+
+
+
+#row1Vol
+{
+	margin: 65px 20px 20px 20px;
+	position: absolute;
+	color: turquoise; 
+
+
+}
+
+#row2Vol
+{
+	margin: 150px 20px 20px 20px;
+	position: absolute;
+
+}
+
+#row3Vol
+{
+	margin: 235px 20px 20px 20px;
+	position: absolute;
+
+}
+
+#row4Vol
+{
+	margin: 320px 20px 20px 20px;
+	position: absolute;
+
+}
+
+#row5Vol
+{
+	margin: 405px 20px 20px 20px;
+	position: absolute;
+
+}
+
+
+
+
+
+
+.boxes
+{
+	display: inline-table;
+}
+
+#padLabel
+{
+	margin: 40px 10px 8px 20px;
+	position: absolute;
+	
+
+
+}
+
+#bassLabel
+{
+	margin: 125px 10px 8px 20px;
+	position: absolute;
+	
+
+}
+
+
+#arpLabel
+{
+	margin: 210px 10px 8px 20px;
+	position: absolute;
+	
+}
+
+#drumsOneLabel
+{
+	margin: 300px 10px 8px 20px;
+	position: absolute;
+	
+
+}
+
+#drumsTwoLabel
+{
+	margin: 385px 10px 8px 20px;
+	position: absolute;
+	
+
+}
+
+
