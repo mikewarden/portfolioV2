@@ -160,9 +160,21 @@ p {
 @media (max-width: 768px) {
 		.thumb {
 	  text-align: center;
-	  width: 600px;
-	  height: 520px;
+	  width: 580px;
+	  height: 500px;
 	  margin: 5px;
+	  padding: 2px;
+	  box-shadow:  3px 6px 6px #878391;
+	  border-radius: 6px;
+	}
+}
+
+@media (max-width: 500px) {
+		.thumb {
+	  text-align: center;
+	  width: 480px;
+	  height: 400px;
+	  margin: 10px;
 	  padding: 2px;
 	  box-shadow:  3px 6px 6px #878391;
 	  border-radius: 6px;
