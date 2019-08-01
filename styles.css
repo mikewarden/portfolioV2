@@ -119,6 +119,7 @@ textarea:focus, input:focus {
 	border: 3px solid #4C4A52;
 	margin-bottom: 8px;
 	z-index: 0;
+	box-shadow: 3px 6px 3px #000;
 }
 
 
@@ -220,8 +221,8 @@ p {
 @media (min-width: 800px) {
 	.other-stuff p {
 		margin: 20px;
-		font-size: 40px;
-		border: 3px solid #fff;
+		font-size: 30px;
+		border: 2px solid #fff;
 		border-radius: 30px;
 		padding: 10px;
 		background-color: #000;
@@ -253,6 +254,12 @@ p {
 @media (min-width: 768px) {
 	.icons {
 		margin: 10px 60px 10px 60px;
+	}
+}
+
+@media (min-width: 900px) {
+	.nav-item {
+		margin-left: 20px;
 	}
 }
 
