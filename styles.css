@@ -96,9 +96,11 @@ textarea:focus, input:focus {
 	margin-left: 16px;
 }*/
 
-.contact-info {
+.contact-info p  {
 	display: inline-flex;
-	margin-left: 10px;
+	
+	text-align: center;
+	justify-content: center;
 }
 
 .footer {
@@ -145,9 +147,10 @@ hr {
 	height: 50px;
 	background-color: gray;
     border-radius: 9px;
-    display: inline;
+    display: inline-flex;
 	margin: 10px 10px 10px 20px;
 	text-align: center;
+	justify-content: center;
 }
 
 .stuff {
@@ -194,3 +197,19 @@ p {
 	  border-radius: 22px;
 	}
 }
+
+@media (min-width: 800px) {
+	.other-stuff {
+		display: inline-flex;
+
+	}
+}
+
+@media (min-width: 800px) {
+	.other-stuff p{
+		margin: 20px;
+		
+	}
+}
+
+
