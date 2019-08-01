@@ -1,168 +1,133 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Mike Warden's Portfolio site</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="script.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Hind+Madurai" rel="stylesheet">
-</head>
-<body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="http://mikewarden.com/">Mike Warden</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <head>
+  	<title>Mike Warden's Portfolio site</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<script type="text/javascript" src="script.js"></script>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="styles.css">
+  	<link href="https://fonts.googleapis.com/css?family=Hind+Madurai" rel="stylesheet">
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="http://mikewarden.com/">Mike Warden</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="http://mikewarden.com/">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://mikewarden.com/bizzaro.html" title="Click here to view my portfolio in Bizzaro view">Bizzaro Version</a>
-      </li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://mikewarden.com/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://mikewarden.com/bizzaro.html" title="Click here to view my portfolio in Bizzaro view">Bizzaro Version</a>
+          </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="http://mikewarden.com/bio/main.html" title="Mike's Bio">Bio</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="http://mikewarden.com/blog/main.html" title="Mike's Blog">Blog</a>
-      </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://mikewarden.com/bio/main.html" title="Mike's Bio">Bio</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="http://mikewarden.com/blog/main.html" title="Mike's Blog">Blog</a>
+          </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="#contact-section" title="Contact Mike">Contact</a>
-      </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-section" title="Contact Mike">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    </ul>
-    
-  </div>
-</nav>
+    <div class="jumbotron">
+      <h2 class="display-4">Hey there, my name is Mike</h2>
+      <img id="profile-pic" src="profile3.jpg">
+      <p id="jumbo-header">I'm a web developer, artist/musician existing in Phoenix AZ.</p>
+      <p class="lead">
+      </p>
+    </div>
 
-<div class="jumbotron">
-  <h2 class="display-4">Hey there, my name is Mike</h2>
- <img id="profile-pic" src="profile3.jpg">
-  
-  <!-- <hr class="my-4"> -->
-  <p id="jumbo-header">I'm a web developer, artist/musician existing in Phoenix AZ.</p>
-  <p class="lead">
-    
-  </p>
-</div>
-
-<div id="project-section">
-  
-
-  <h2 class="project-header">Projects:</h2>
-  <div class="row">
-    <div class="col-xs-3" title= "this searchable Alien Database is a CodePen project using JavaScript ES5 classes and objects to store data. Developed by Mike Warden.">
-      <a href="https://codepen.io/mikewarden/full/mxMgbL/"><img src="alienSpeciesScreen1.jpg" class="thumb"></a>
-      </div>
-    <div class="col-xs-3" title="DivClips is a web-based audio sequencer looper made with vanilla Javascript ES5 and some jQuery UI. Developed by Mike Warden.">
-      <a href="http://mikewarden.com/divClipsV1/main.html"><img src="divClipsScreen.jpg" class="thumb"></a>
-      </div>
-    <div class="col-xs-3" title= "DivWaves is a web-based virtual keyboard made with vanilla JavaScript ES5 and some jQuery UI. Developed by Mike Warden.">
-      <a href="http://mikewarden.com/divWavesV1/main.html"><img src="divWavesScreen.jpg" class="thumb"></a>
-      </div>
-  
-  
-    <div class="col-xs-3" title="DreamLogger is a page for submitting dream experiences to a database using PHP and mySQL. All submissions are reviewed before being added to the dream table. Developed by Mike Warden.">
-      <a href="http://mikewarden.com/dreamL0gg3r/home.php"><img src="dreamlogger1.jpg" class="thumb"></a>
-      </div>
-    <div class="col-xs-3" title="This is a Wikipedia viewer built using Javascript ES5, jQuery and JSON data from the Wikipedia API.  Developed by Mike Warden as part of a FreeCodeCamp project assigment.">
-      <a href="http://mikewarden.com/wikiViewer/main.html"><img src="wikiViewerScreen.jpg" class="thumb"></a>
-      </div>
-     <div class="col-xs-3" title="This Random Art Generator uses Math.Random functions to manipulate HTML Canvas elements.  Developed by Mike Warden.">
-      <a href="http://mikewarden.com/randomArtGen/main.html"><img src="randomArtScreen1.jpg" class="thumb">
-      </div>
-    
-  
-  
-     <div class="col-xs-3" title="PixelArtMaker was developed by Mike Warden as a project assignment for the Udacity Grow with Google Challenge.">
-      <a href="http://mikewarden.com/pixelArtMaker/main.html"><img src="pixelArtScreen2.jpg" class="thumb"></a>
-      </div>
-    <div class="col-xs-3" title="This Random Quote Generator was developed by Mike Warden as a project assignment for FreeCodeCamp. The quotes are hard-coded in an array rather than making use of the API which was done intentionally.">
-      <a href="http://mikewarden.com/randomQuotes/main.html"><img src="randomQtPic.jpg" class="thumb"></a>
-      </div>
-
-    <div class="col-xs-3" title="This is the Copper Satellites Homepage. Copper Satellites is one Mike's electronic music projects. Developed by Mike Warden.">
-      <a href="http://mikewarden.com/copperSatellites/home.html"><img src="CShomepic1.jpg" id="thumb1" class="thumb"></a>
-      </div>
-      
+    <div id="project-section">
+      <h2 class="project-header">Projects:</h2>
+      <div class="row">
+        <div class="col-xs-4" title= "this searchable Alien Database is a CodePen project using JavaScript ES5 classes and objects to store data. Developed by Mike Warden.">
+          <a href="https://codepen.io/mikewarden/full/mxMgbL/"><img src="alienSpeciesScreen1.jpg" class="thumb"></a>
+        </div>
+        <div class="col-xs-4" title="DivClips is a web-based audio sequencer looper made with vanilla Javascript ES5 and some jQuery UI. Developed by Mike Warden.">
+          <a href="http://mikewarden.com/divClipsV1/main.html"><img src="divClipsScreen.jpg" class="thumb"></a>
+        </div>
+        <div class="col-xs-4" title= "DivWaves is a web-based virtual keyboard made with vanilla JavaScript ES5 and some jQuery UI. Developed by Mike Warden.">
+          <a href="http://mikewarden.com/divWavesV1/main.html"><img src="divWavesScreen.jpg" class="thumb"></a>
+        </div>
+        <div class="col-xs-4" title="DreamLogger is a page for submitting dream experiences to a database using PHP and mySQL. All submissions are reviewed before being added to the dream table. Developed by Mike Warden.">
+          <a href="http://mikewarden.com/dreamL0gg3r/home.php"><img src="dreamlogger1.jpg" class="thumb"></a>
+        </div>
+        <div class="col-xs-4" title="This is a Wikipedia viewer built using Javascript ES5, jQuery and JSON data from the Wikipedia API.  Developed by Mike Warden as part of a FreeCodeCamp project assigment.">
+          <a href="http://mikewarden.com/wikiViewer/main.html"><img src="wikiViewerScreen.jpg" class="thumb"></a>
+        </div>
+      <div class="row">
+        <div class="col-xs-4" title="This Random Art Generator uses Math.Random functions to manipulate HTML Canvas elements.  Developed by Mike Warden.">
+          <a href="http://mikewarden.com/randomArtGen/main.html"><img src="randomArtScreen1.jpg" class="thumb"></a>
+        </div>
+        <div class="col-xs-4" title="PixelArtMaker was developed by Mike Warden as a project assignment for the Udacity Grow with Google Challenge.">
+          <a href="http://mikewarden.com/pixelArtMaker/main.html"><img src="pixelArtScreen2.jpg" class="thumb"></a>
+        </div>
+        <div class="col-xs-4" title="This Random Quote Generator was developed by Mike Warden as a project assignment for FreeCodeCamp. The quotes are hard-coded in an array rather than making use of the API which was done intentionally.">
+          <a href="http://mikewarden.com/randomQuotes/main.html"><img src="randomQtPic.jpg" class="thumb"></a>
+        </div>
+        <div class="col-xs-4" title="This is the Copper Satellites Homepage. Copper Satellites is one Mike's electronic music projects. Developed by Mike Warden.">
+          <a href="http://mikewarden.com/copperSatellites/home.html"><img src="CShomepic1.jpg" id="thumb1" class="thumb"></a>
+        </div>
+        <div class="col-xs-4" id="thumb-ten" title="This shopping list app was made using React JS and ES6 JavaScript with Babel as a preprocessor. Developed by Mike Warden.">
+          <a href="https://codepen.io/mikewarden/full/YLreaZ/"><img src="shoppinglistScreen.png" class="thumb"></a>
+        </div>
+        <div class="col-xs-4" id="thumb-eleven" title="This API based weather app was developed by Mike Warden as project assignment for FreeCodeCamp.">
+          <a href="https://codepen.io/mikewarden/pen/POrpaM"><img src="avgTempAppPic1.jpg" class="thumb"></a>
+        </div>
       </div>
     </div>
-    <div class="row">
-     <div class="col-xs-3" id="thumb-ten" title="This shopping list app was made using React JS and ES6 JavaScript with Babel as a preprocessor. Developed by Mike Warden.">
-      <a href="https://codepen.io/mikewarden/full/YLreaZ/"><img src="shoppinglistScreen.png" class="thumb"></a>
-      </div>
-      
-     <div class="col-xs-3" id="thumb-eleven" title="This API based weather app was developed by Mike Warden as project assignment for FreeCodeCamp.">
-      <a href="https://codepen.io/mikewarden/pen/POrpaM"><img src="avgTempAppPic1.jpg" class="thumb"></a>
-      </div>
-  </div>
-</div>
-<hr>
+    <hr>
 
-<div class="stuff-box">
-  <h4>Other Stuff:</h4>
-  <p><a href="https://mikewarden.bandcamp.com/" target="_blank" class="stuff">Mike's Music</a></p>
-  <p><a href="http://mikewarden.deviantart.com/gallery/" target="_blank" class="stuff">Mike's Visual Art</a></p>
-  </div> 
-  
-  <hr>
-  <div id="contact-section">
-  </div>
-  
-  <div class="contact-info">
-  <h4>Contact:</h4>
-  <p><a href="mailto:mikewarden@mikewarden.com" target="_blank" class="stuff"><img src="email2.svg" class="icons"></a></p>
-  <p><a href="https://www.linkedin.com/in/michael-warden-12533b133?trk=hp-identity-name" target="_blank" class="stuff"><img src="linkdin.svg" class="icons"></a></p>
-    <p><a href="https://github.com/mikewarden" target="_blank" class="stuff"><img src="github.svg" class="icons"></a></p>
+    <div class="stuff-box">
+      <h4>Other Stuff:</h4>
+      <p><a href="https://mikewarden.bandcamp.com/" target="_blank" class="stuff">Mike's Music</a></p>
+      <p><a href="http://mikewarden.deviantart.com/gallery/" target="_blank" class="stuff">Mike's Visual Art</a></p>
+    </div> 
     
-  </div> 
-  <hr>
-  <div class="stuff-box">
-  <form action="insert.php" method="post" name="form_name" id="form_id" class="form_class">
-  <h4 class="stuff">Questions/Comments:</h4>
-  
-  <h6 class="stuff">Name:</h6>
-    <input type="text" name="Name" id="userName" class="stuff" maxlength="40">
-    <br>
-    <h6 class="stuff">Type your question or comment below:</h6>
+    <hr>
+    <div id="contact-section">
+      <div class="contact-info">
+        <h4>Contact:</h4>
+        <p><a href="mailto:mikewarden@mikewarden.com" target="_blank" class="stuff"><img src="email2.svg" class="icons"></a></p>
+        <p><a href="https://www.linkedin.com/in/michael-warden-12533b133?trk=hp-identity-name" target="_blank" class="stuff"><img src="linkdin.svg" class="icons"></a></p>
+        <p><a href="https://github.com/mikewarden" target="_blank" class="stuff"><img src="github.svg" class="icons"></a></p>
+    </div> 
+    <hr>
     
-     <textarea type="text" name="Comment" id="userComment" class="stuff" maxlength="280" cols="30" rows="7"></textarea>
-    <br>
-    <h6 class="stuff">Email/Contact:</h6>
+    <div class="stuff-box">
+      <form action="insert.php" method="post" name="form_name" id="form_id" class="form_class">
+        <h4 class="stuff">Questions/Comments:</h4>
+        <h6 class="stuff">Name:</h6>
+        <input type="text" name="Name" id="userName" class="stuff" maxlength="40">
+        <br>
+        <h6 class="stuff">Type your question or comment below:</h6>
+        <textarea type="text" name="Comment" id="userComment" class="stuff" maxlength="280" cols="30" rows="7"></textarea>
+        <br>
+        <h6 class="stuff">Email/Contact:</h6>
+        <input type="text" name="Contact" id="userContact" class="stuff" maxlength="40">
+        <br>
+        <button type="submit" id="submitBtn">Submit</button>
+      <!--<h4 class="stuff">Please avoid quotations and apostrophes for now, thanks.</h4>-->
+      </form>
+    </div> 
     
-    <input type="text" name="Contact" id="userContact" class="stuff" maxlength="40">
-    <br>
+    <div class="footer">
+      <p>Coded and designed by Mike Warden.</p>
+    </div>
     
-    
-    <button type="submit" id="submitBtn">Submit</button>
-    <!--<h4 class="stuff">Please avoid quotations and apostrophes for now, thanks.</h4>-->
-  </form>
-  </div> 
-  
-  
-  
-  
-  
-  <div class="footer">
-    <p>Coded and designed by Mike Warden.</p>
-  </div>
-  </div>
-
-    
-   
-
-
-
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-</body>
+  </body>
 </html>
