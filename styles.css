@@ -162,6 +162,18 @@ p {
   color: #fff;
 }
 
+.other-stuff a {
+	text-decoration: none;
+}
+
+.form-fields {
+	border-radius: 20px;
+}
+
+#submitBtn {
+	border-radius: 20px;
+}
+
 @media (max-width: 1400px) {
 	.thumb {
 	  text-align: center;
@@ -177,8 +189,8 @@ p {
 @media (max-width: 768px) {
 		.thumb {
 	  text-align: center;
-	  width: 540px;
-	  height: 460px;
+	  width: 460px;
+	  height: 380px;
 	  margin: 10px;
 	  padding: 2px;
 	  box-shadow:  3px 6px 6px #878391;
@@ -206,10 +218,41 @@ p {
 }
 
 @media (min-width: 800px) {
-	.other-stuff p{
+	.other-stuff p {
 		margin: 20px;
-		
+		font-size: 40px;
+		border: 3px solid #fff;
+		border-radius: 30px;
+		padding: 10px;
+		background-color: #000;
+		opacity: 0.8;
 	}
 }
 
+@media (min-width: 900px) {
+	.form-fields {
+		width: 850px;
+	}
+}
+
+
+
+@media (min-width: 800px) {
+	.form-fields {
+		width: 750px;
+	}
+}
+
+
+@media (min-width: 700px) {
+	.form-fields {
+		width: 650px;
+	}
+}
+
+@media (min-width: 768px) {
+	.icons {
+		margin: 10px 60px 10px 60px;
+	}
+}
 
