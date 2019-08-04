@@ -157,6 +157,7 @@ article {
 	border-radius: 30px;
 	opacity: 0.8;
 	padding: 10px;
+	margin-right: 20px;
 }
 
 @media (min-width: 900px) {
