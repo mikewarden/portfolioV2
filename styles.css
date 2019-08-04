@@ -177,6 +177,16 @@ p {
 	border-radius: 20px;
 }
 
+.other-stuff p {
+		margin: 10px;
+		/*font-size: 30px;*/
+		border: 1px solid #fff;
+		border-radius: 18px;
+		padding: 4px;
+		background-color: #000;
+		opacity: 0.8;
+	}
+
 @media (max-width: 1400px) {
 	.thumb {
 	  text-align: center;
