@@ -4,7 +4,6 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Hind Madurai', sans-serif;
-	padding: 7px;
 	color: #fff;
 	
 	text-align: center;
@@ -158,4 +157,10 @@ article {
 	border-radius: 30px;
 	opacity: 0.8;
 	padding: 10px;
+}
+
+@media (min-width: 900px) {
+	.nav-item {
+		margin-left: 20px;
+	}
 }
