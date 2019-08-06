@@ -34,28 +34,7 @@ body {
 	color: #000;
 }
 
-.thumb {
-  text-align: center;
-  width: 220px;
-  height: 200px;
-  margin: 10px;
-  padding: 2px;
-  box-shadow:  3px 6px 6px #878391;
-  border-radius: 12px;
-}
 
-.stuff-box {
-	color: #ffe;
-    margin-top: 20px;
-    justify-content: center;
-    text-align: center;
-}
-
-.project-header {
-	text-align: center;
-	color: #D6D0E5;
-	margin: 15px 0px 20px 0px;
-}
 
 img {
  height: 100px;
@@ -80,16 +59,6 @@ textarea {
   margin-bottom: 20px;
 }
 
-#project-section {
-	justify-content: center;
-	opacity: 0.9;
-    margin: 20px 30px 10px 30px;
-    padding: 10px 0px 10px 0px;
-}
-
-/*#thumb-ten {
-	margin-left: 16px;
-}*/
 
 .contact-info {
 	text-align: center;
