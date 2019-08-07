@@ -43,9 +43,6 @@ body {
   transition: all 1s;
 }
 
-.thumb:hover {
-	transform: scale(1.1);
-}
 
 .stuff-box {
 	color: #ffe;
@@ -278,5 +275,9 @@ p {
 	.nav-item {
 		margin-left: 20px;
 	}
+}
+
+.thumb:hover {
+	transform: scale(1.1);
 }
 
