@@ -158,6 +158,31 @@ hr {
 	justify-content: center;
 }
 
+.icons2 {
+	width: 100px;
+	height: 100px;
+	/*background-color: gray;*/
+	/*border: 2px solid #fff;
+    border-radius: 9px;*/
+    display: inline-flex;
+	margin: 20px 5px 15px 2px;
+	text-align: center;
+	justify-content: center;
+}
+
+.icons3 {
+	/*width: 20px;
+	height: 20px;*/
+	/*background-color: gray;*/
+	/*border: 2px solid #fff;
+    border-radius: 9px;*/
+    display: inline-flex;
+	margin: 10px 5px 5px 2px;
+	text-align: center;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
 .stuff {
 	text-decoration: none;
 	color: #fff;
@@ -169,6 +194,7 @@ p {
 
 .other-stuff a {
 	text-decoration: none;
+	padding: 10px;
 }
 
 .form-fields {
@@ -181,10 +207,10 @@ p {
 
 .other-stuff p {
 		margin: 10px;
-		/*font-size: 30px;*/
+		/*/*font-size: 30px;*/
 		border: 1px solid #fff;
 		border-radius: 18px;
-		padding: 12px;
+		padding: 20px;
 		background-color: #000;
 		opacity: 0.8;
 	}
@@ -234,11 +260,11 @@ p {
 
 @media (min-width: 800px) {
 	.other-stuff p {
-		margin: 20px;
-		font-size: 30px;
+		margin: 10px;
+		font-size: 20px;
 		border: 2px solid #fff;
 		border-radius: 30px;
-		padding: 10px;
+		padding: 10px 10px 10px 10px;
 		background-color: #000;
 		opacity: 0.8;
 	}
@@ -271,6 +297,12 @@ p {
 	}
 }
 
+@media (min-width: 768px) {
+	.icons2 {
+		margin: 10px 10px 10px 10px;
+	}
+}
+
 @media (min-width: 900px) {
 	.nav-item {
 		margin-left: 20px;
@@ -281,3 +313,6 @@ p {
 	transform: scale(1.1);
 }
 
+#musicText  {
+	padding-bottom: 5px;
+}
