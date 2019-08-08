@@ -94,13 +94,12 @@ textarea:focus, input:focus {
     padding: 10px 0px 10px 0px;
 }
 
-/*#thumb-ten {
-	margin-left: 16px;
-}*/
+.contact-info {
+	margin: 10px 80px 10px 80px;
+}
 
 .contact-info p  {
 	display: inline-flex;
-	
 	text-align: center;
 	justify-content: center;
 }
@@ -254,14 +253,15 @@ p {
 @media (min-width: 800px) {
 	.other-stuff {
 		display: inline-flex;
+		margin: ;
 
 	}
 }
 
 @media (min-width: 800px) {
 	.other-stuff p {
-		margin: 10px;
-		font-size: 20px;
+		margin: 20px 100px 20px 100px;
+		font-size: 28px;
 		border: 2px solid #fff;
 		border-radius: 30px;
 		padding: 10px 10px 10px 10px;
@@ -315,4 +315,8 @@ p {
 
 #musicText  {
 	padding-bottom: 5px;
+}
+
+#misc-stuff {
+	margin: 10px 60px 10px 60px;
 }
