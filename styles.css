@@ -94,7 +94,7 @@ textarea:focus, input:focus {
 	justify-content: center;
 	opacity: 0.9;
     margin: 20px 10px 10px 10px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 3px 10px 3px;
 }
 
 .contact-info {
@@ -247,8 +247,8 @@ p {
 @media (max-width: 560px) {
 		.thumb {
 	  text-align: center;
-	  width: 460px;
-	  height: 380px;
+	  width: 440px;
+	  height: 360px;
 	  margin: 20px;
 	  padding: 2px;
 	  box-shadow:  3px 6px 6px #878391;
