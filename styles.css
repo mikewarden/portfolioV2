@@ -68,7 +68,7 @@ h6 {
 input {
   box-shadow:  1px 3px 5px #0F0224;
   background-color: #000;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 textarea {
