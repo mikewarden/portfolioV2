@@ -11,6 +11,7 @@ body {
 	opacity: 0.7;
 	background-color: #B7B2C4;
 	margin-bottom: 30px;
+	width: 100%;
 }
 
 .jumbotron {
@@ -231,7 +232,7 @@ p {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
 		.thumb {
 	  text-align: center;
 	  width: 460px;
