@@ -330,13 +330,13 @@ p {
 
 
 .icons:hover {
-	transform: scale(2.1);
+	transform: scale(1.7);
 }
 
 .icons2:hover {
-	transform: scale(2.1);
+	transform: scale(1.5);
 }
 
 .icons3:hover {
-	transform: scale(2.1);
+	transform: scale(1.5);
 }
